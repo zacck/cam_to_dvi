@@ -5,11 +5,9 @@
 set_param general.maxThreads 6
 #Define target part and create output directory
 # The Bays3 uses this chip:
-# xc7a35t refers to the fact that it is a Artix 7 FPGA
-# cpg236 refers to its package it is in
 # refers to the "speed grade" of the chip
 
-set partNum xc7a35tcpg236-1
+set partNum xc7a35tcsg324-1
 set outputDir obj
 file mkdir $outputDir
 set files [glob -nocomplain "$outputDir/*"]
