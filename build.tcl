@@ -7,7 +7,7 @@ set_param general.maxThreads 6
 # The Bays3 uses this chip:
 # refers to the "speed grade" of the chip
 
-set partNum xc7a35tcsg324-1
+set partNum xc7a100tcsg324-1
 set outputDir obj
 file mkdir $outputDir
 set files [glob -nocomplain "$outputDir/*"]
